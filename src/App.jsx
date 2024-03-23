@@ -5,7 +5,7 @@ import { Title } from './components/Title'
 import moment from 'moment';
 
 function App() {
-  const [hide, setHide] = useState(false)
+  const [hide, setHide] = useState(true)
 
   return (
     <main id="main">
@@ -31,8 +31,10 @@ function App() {
         </Title>
     
         <Title title="Education">
+          <p>2564-2566</p>
           <p>Bachelor of Science in Information Technology (IT)</p>
           <p>Suan Sunandha Rajabhat University</p> 
+          <p>(Gpa : 3.47)</p> 
         </Title>
       </div>
 
@@ -52,6 +54,15 @@ function App() {
           <p>• Adobe Premiere Pro</p>
           <p>• Microsoft Office</p>
         </Title>
+
+        <Title title="Soft Skills">
+          <p>• Communication Skills</p>
+          <p>• Teamwork Skills</p>
+          <p>• Problem-Solving Skills</p>
+          <p>• Time Management Skills</p>
+          <p>• Emotional Skills</p>
+        </Title>
+
       </div>
     </main>
   )

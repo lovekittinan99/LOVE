@@ -1,10 +1,10 @@
 #main{
   display: flex;
-  height: 125vh;
+  height: 137vh;
 }
 
 .leftPort{
-  background-color: #242424;
+  background-color: #f7b92d;
   width: 400px;
   flex-shrink: 0;
   padding: 30px;
@@ -12,7 +12,7 @@
 }
 
 .rightPort{
-  background-color: gray;
+  background-color: #edd776;
   width: 100%;
   flex-grow: 1;
   padding: 4rem;
@@ -40,7 +40,7 @@
 }
 
 .titleProt h2{
-  color: greenyellow;
+  color: rgb(0, 0, 0);
 }
 p{
   margin-bottom: 15px;
